@@ -1,0 +1,21 @@
+#zoomiocontainer{ /* container containing enlarged image (native sized image) */
+	position: absolute;
+	z-index: 50;
+	overflow: hidden;
+	background: white;
+	visibility: hidden;
+	width: 200%;
+	height: 200%;
+}
+
+#zoomiocontainer img{ /* image inside zoom container */
+	width: 200% !important;
+	height: 200% !important;
+	position: absolute !important;
+	display: block !important;
+}
+
+#zoomiocontainer.mobileclass{ /* CSS class added to zoom container on mobile OS */
+	overflow: scroll;
+	-webkit-overflow-scrolling: touch;
+}

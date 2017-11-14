@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>zhuce</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="bootstrap/css/zhuce.css">
+	<link rel="stylesheet" href="font_ji826fg6x02dfgvi/iconfont.css">
+</head>
+<body>
+	<div id="logo">
+		<a href="index.html">BLUE</a>
+	</div>
+<!-- 表单内容 -->
+	<div id="myform">
+		<form action="" onsubmit="return true" name="myform">
+			<div>Name <span>*</span></div>
+			<input type="text" oninput="checkUser(this)" name="user">
+			<span id="p1"></span>
+
+			<div>Email <span>*</span></div>
+			<input type="text" oninput="checkEmail(this)" name="email">
+			<span id="p2"></span>
+
+			<div>Password <span>*</span></div>
+			<input type="password" class="pwd" oninput="checkPwd(this)" name="pwd">
+			<span id="p3"></span>
+
+			<div>Enter the password again <span>*</span></div>
+			<input type="password" oninput="checkPwds(this)" name="pwd-again">
+			<span id="p4"></span>
+
+			<div>Mobile phone</div>
+			<input type="text" oninput="checkTel(this)" name="phone"><br>
+			<span id="p5"></span>
+
+			<label for="checkbox">
+				<input type="checkbox" id="checkbox">
+				I have read and agree to the terms of service and the legal statements. I will not create websites that contain vulgar content and hinder social stability
+			</label>
+			<hr>
+<!-- 登录 注册按钮 -->
+			<button>REGISYER</button>
+			<a class="enter" href="denglu.html">
+				PLEASE LOGIN
+			</a>
+		</form>
+<!-- 尾部图标 -->
+		<div class="icon-box">
+			Other account login：<a href="##"><i class="iconfont icon-QQ"></i></a>
+						  <a href="##"><i class="iconfont icon-weixin"></i></a>
+						  <a href="##"><i class="iconfont icon-googleplussymbol1"></i></a>
+						  <a href="##"><i class="iconfont icon-facebook"></i></a>
+		</div>
+	</div>
+	<script src="bootstrap/js/jquery.min.js"></script>
+	<script src="bootstrap/js/zhuce.js"></script>
+</body>
+</html>

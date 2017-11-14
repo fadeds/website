@@ -1,0 +1,91 @@
+#bg {
+	width: 100%;
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-position: center top;
+	background-repeat: no-repeat;
+	height: 500px;
+}
+#message{
+		margin:20px;
+		color: #696969;
+	}
+#message ul{
+	width: 100%;
+}
+#message .left{
+	border: 1px solid #ccc;
+	padding:20px;
+}
+#message .left h1{
+	color: #FF6600;
+}
+#message .left h3{
+	color: #494949;
+}
+#message .left .left-right{
+	padding-left: 40px;
+}
+#message .left .left-right span.btm{
+	display: block;
+	width: 30px;
+	height: 3px;
+	background-color: #ccc;
+	margin: 10px 0px;
+}
+#message .left .left-right p{
+	margin: 10px 0px;
+}
+#message .left .left-right span:nth-of-type(2){
+	display: block;
+	line-height: 30px;
+	border-top: 1px dashed #ccc;
+	border-bottom: 1px dashed #ccc;
+}
+#message .left .des ul{
+	border-top: 2px solid #ccc; 
+	margin-top: 30px;
+}
+
+#message .left .des-main ul{
+	border-bottom: 2px solid #ccc; 
+	padding-bottom: 20px;
+}
+#message .left .des ul li a{
+	display: block;
+	width: 70px;
+	height: 40px;
+	text-align: center;
+	line-height: 40px;
+	color: #333;
+	border-top: 3px solid #333;
+}
+#message .left .sibling p {
+	color: #ff6600;
+	font-size: 20px;
+}
+#message .right{
+	padding-left: 40px;
+}
+#message .right h3{
+	padding-bottom: 30px;
+}
+#message .right ul li a{
+	color: #333;
+}
+#message .right ul li{
+	line-height: 50px;
+	cursor: pointer;
+	background-color: #fff;
+	border-radius: 8px;
+	padding-left: 10px;
+}
+#message .right ul li:hover{
+	background-color: #F0F0F0;
+}
+@media screen and (min-width: 992px){
+	#message{
+		width: 90%;
+		margin: 20px auto;
+	}
+}

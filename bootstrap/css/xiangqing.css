@@ -1,0 +1,205 @@
+*{
+	padding:0;
+	margin: 0;
+	text-align: center;
+	font-size: 14px;
+}
+ul{
+	list-style: none;
+}
+#bg{
+	height: 500px;
+	width: 100%;
+	background-image: url(../../img/cinelli.jpeg);
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-position: center top;
+	background-repeat: no-repeat;
+}
+.nav-list a{
+	text-align: left;
+}
+li{
+	border: 1px solid #ccc;
+	border-bottom: 0;
+}
+li div{
+	text-align: center;
+	padding: 20px 3px;
+}
+ul li:nth-of-type(2) div{
+	min-height: 100px;
+	padding:50px 20px 0px 20px;
+}
+ul li:nth-of-type(3) div,
+ul li:nth-of-type(4) div,
+ul li:nth-of-type(9) div,
+.title-f2 ul li:nth-of-type(1) div{
+	min-height: 45px;
+	padding-bottom: 0px;
+}
+ul li:nth-of-type(8) div{
+	min-height: 65px;
+	padding-top: 30px;
+	padding-bottom: 0px;
+}
+ul li:nth-of-type(12) div{
+	min-height: 170px;
+	padding: 20px 7px;
+	padding-bottom: 0px;
+}
+ul li:nth-of-type(13) div,
+.title-f2 ul li:nth-of-type(8) div{
+	min-height: 45px;
+	padding: 10px;
+}
+.one li:nth-of-type(12) div{
+	padding-top: 90px;
+	min-height: 100px;
+}
+.three li:nth-of-type(12) div{
+	padding-top: 55px;
+	min-height: 135px;
+}
+ul{
+	border-bottom: 1px solid #ccc;
+}
+ul a{
+	text-decoration: none;
+	cursor: pointer;
+	color: #019ee3;
+	display: block;
+	width: 120px;
+	height: 40px;
+	margin: 0 auto;
+	line-height: 40px;
+	border-radius: 3px;
+	transition: all 0.3s ease 0s;
+}
+ul a:hover{
+	border: 1px solid #019ee3;
+}
+#logo a{
+	text-decoration: none;
+	font-size: 100px;
+	color: #019ee3;
+}
+.title{
+	margin-top: 40px;
+	padding: 20px 0.5px;
+	background-color: #EAEAEA;
+}
+.title .title-main{
+	width: 50%;
+}
+.title .title-f1{
+	padding-left: 40px;
+	font-size: 24px;
+}
+.six{
+	padding-top: 250px;
+	border-top: 3px solid #B2B2B2;
+}
+.six img{
+	display:block;
+	width: 40px;
+	margin: 0 auto;
+}
+.red{
+	color: red;
+	text-align: left;
+	padding: 40px 0px;
+	border-top: 1px solid #ccc;
+}
+/*设置 上边框颜色*/
+.one{
+	border-top: 2px solid #B2B2B2;
+}
+.two{
+	border-top: 2px solid #FABB01;
+}
+.three{
+	border-top: 2px solid #61B0FF;
+}
+.four{
+	border-top: 2px solid #39CEAB;
+}
+.five{
+	border-top: 2px solid #E9382A;
+}
+.main .row .ul-pad{
+	padding: 0;
+}
+.main{
+	width: 80%;
+	margin: 0 auto;
+}
+.one,.six{
+	display: none;
+}
+/****设置第二个盒子*****/
+.title-f2 ul li:nth-of-type(2) div{
+	min-height: 0px;
+	padding: 20px 0px;
+}
+.title-f2 ul li:nth-of-type(4) div,
+.title-f2 ul li:nth-of-type(5) div{
+	min-height: 65px;
+	padding-bottom: 0px;
+}
+.title-f2 ul li:nth-of-type(6) div{
+	min-height: 70px;
+	padding-bottom: 0px;
+}
+.title-f2 .one li:nth-of-type(6) div,
+.title-f2 .two li:nth-of-type(6) div,
+.title-f2 .five li:nth-of-type(6) div{
+	padding-top:45px;
+	min-height: 45px;
+}
+/****设置a****/
+.six a{
+	color: #fff;
+	border-radius: 50px;
+	background: #019ee3;
+	transition: all 0.3s ease;
+}
+.six a:hover{
+	color: #019ee3;
+	background: #fff;
+}
+#footer .footer-box .inp-box button i{
+	font-size: 22px;
+}
+#footer .footer-box .inp-box button{
+	top: 0px;
+}
+/*设置字体颜色*/
+.price{
+	color: orange;
+}
+.dis{
+	color: red;
+}
+/******************************888*/
+
+@media screen and (min-width: 992px){
+	.one,.six{
+		display: block;
+	}
+	.main {
+		width: 90%;
+	}
+	ul li{
+		border-right: 0px;
+	}
+	ul{
+		border-bottom: 0px;
+	}
+	.five{
+		border-right: 1px solid #ccc;
+	}
+	.main-box{
+		border-right: 1px solid #ccc
+	}
+}

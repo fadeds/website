@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>denglu</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="bootstrap/css/boot.css">
+    <link rel="stylesheet" href="bootstrap/css/denglu.css">	
+    <link rel="stylesheet" href="font_ji826fg6x02dfgvi/iconfont.css">
+</head>
+<body>
+	<div id="main">
+		<div class="col-xs-12 logo">
+			<a href="index.html">BLUE</a>
+			<p>FLLOW US</p>
+		</div>
+		<div class="form-box">
+			<form action="" onsubmit="return true" name="myform">
+				<p>Name</p>
+				<input type="text" oninput="checkUser(this)" name="user">
+				<span id="p1"></span>
+				<p>Password</p>
+				<input type="password" oninput="checkPwd(this)" name="pwd">
+				<span id="p3"></span>
+				<input type="checkbox" id="checkbox">
+				<label for="checkbox">Remember Me</label>	
+				<hr>
+				<button>ENTRY</button>
+				<a class="regisyer" href="zhuce.html" onclick="zhu()">REGISYER</a>
+			</form>
+			<div class="icon-box">
+			Other account login：<a href="https://www.graph.qq.com/oauth/show"><i class="iconfont icon-QQ"></i></a>
+						  <a href="##"><i class="iconfont icon-weixin"></i></a>
+						  <a href="##"><i class="iconfont icon-googleplussymbol1"></i></a>
+						  <a href="##"><i class="iconfont icon-facebook"></i></a>
+			</div>
+		</div>
+	</div>
+	<script src="bootstrap/js/jquery.min.js"></script>
+	<script src="bootstrap/js/zhuce.js"></script>
+</body>
+</html>
