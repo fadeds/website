@@ -1,3 +1,3 @@
- flex-add
-  这是一个关于flexbox基础的骰子布局
- [demo](http://carryguan.me/flex-add/fb1.html)
+BULE
+ 一个用栅格布局的响应式网站  自己的栅格  
+ [demo](https://fadeds.github.io/website/index.html)
